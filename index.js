@@ -1,4 +1,14 @@
 // write your code below!
-function sayhappyHolidays()
-console.log('Happy Holidays!')
-sayhappyHolidays
+function sayhappyHolidays(){
+return 'Happy Holidays!'
+}
+
+function sayhappyHolidaysTo(name){
+  return `Happy holidays, ${name}!`
+}
+
+function sayhappyHolidayTo(holiday, name){
+  return `Happy ${holiday), ${name}!`
+  }
+  
+  
